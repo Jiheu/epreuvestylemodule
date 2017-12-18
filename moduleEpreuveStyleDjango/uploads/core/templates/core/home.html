@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <ul>
+    <li>
+      <a href="{% url 'upload' %}">Ajoutez votre screenshot de la transmogrification de votre personnage</a>
+    </li>
+    <li>
+      <a href="{% url 'classement' %}">Classement de la derniere epreuve</a>
+    </li>
+    <li>
+      <a href="{% url 'vote' %}">Votez pour la meilleur transmogrification</a>
+    </li>
+  </ul>
+{% endblock %}
